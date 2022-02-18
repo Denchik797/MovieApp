@@ -1,5 +1,4 @@
-## <center> KinoLife </center>
-
+### KinoLife 
 ---
 
 ### Основные задачи
