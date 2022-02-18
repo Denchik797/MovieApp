@@ -1,4 +1,19 @@
-# <center> KinoLife </center> 
+## <center> KinoLife </center>
+
+---
+
+### Основные задачи
+
+1)
+
+---
+
 ### Участники
+
 * Макаров Денис Владимирович
-### [Figma](https://www.figma.com/file/hjaBe1fDfxCIt3L5fpgs5c/KinoLife?node-id=0%3A1)
+
+---
+
+### Проектирование и создание макетов
+
+* [Figma](https://www.figma.com/file/hjaBe1fDfxCIt3L5fpgs5c/KinoLife?node-id=0%3A1)
