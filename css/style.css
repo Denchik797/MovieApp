@@ -1,0 +1,135 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* Тело */
+body {
+  background-color: #141414;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Main */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Шапка */
+.header__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  height: 60px;
+}
+
+/* MovieApp */
+.header__logo {
+  font-size: 32px;
+  text-decoration: none;
+  color: #FF6600;
+}
+
+/* Поиск */
+.header__search {
+  padding: 8px;
+  border: 2px solid #1a191f;
+  border-radius: 5px;
+  outline: none;
+}
+
+/* Фильмы */
+.movies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* Ящик с фильмами */
+.movie {
+  width: 240px;
+  margin: 10px;
+  position: relative;
+}
+
+/* Карточка */
+.movie__cover-inner {
+  position: relative;
+  height: 360px;
+  border: 4px double black; /* Параметры границы */
+  background: #FF6600; /* Цвет фона */
+}
+
+
+.movie__cover {
+  max-width: 100%;
+  height: 100%;
+}
+
+.movie__cover--darkened {
+  background-color: #000000;
+  opacity: 0.1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  max-width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.movie__cover--darkened:hover {
+  background-color: grey;
+  cursor: pointer;
+}
+
+/* Ящик с описанием */
+.movie__info {
+  padding: 10px 0px;
+}
+
+/* Название */
+.movie__title {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+/* Описание */
+.movie__card {
+  font-size: 14px;
+  color: #FF6600;
+}
+
+/* Рейтинг */
+.movie__average {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 0;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1a191f;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+
+.movie__average--green {
+  border: 2px solid green;
+}
+
+
+.movie__average--orange {
+  border: 2px solid orange;
+}
+
+
+.movie__average--red {
+  border: 2px solid red;
+}
