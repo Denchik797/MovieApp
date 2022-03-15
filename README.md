@@ -6,6 +6,10 @@
 
 * [Visual Studio Code](https://code.visualstudio.com/Download)
 
+# Данные которые мы получаем из нашего json ответа
+
+![](https://sun9-41.userapi.com/impg/ZnV1pn5gb3bcT8YSAQ5iKE1cSOAqCtFzr9x4FA/J6d2onCkcsQ.jpg?size=1209x908&quality=96&sign=95b0b48461f230848b96e8f010f8d3d8&type=album)
+
 ## Работа с git
 
 1.	Для начала мы скачаем программу с официального сайта по данной [ссылке](https://central.github.com/deployments/desktop/desktop/latest/win32).
